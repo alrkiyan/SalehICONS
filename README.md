@@ -1,267 +1,338 @@
-# SalehICONS - Adobe Illustrator Plugin
+# SalehICONS - Multi-Platform Plugin Suite
 
-Browse and insert 39,000+ SVG icons from 9 categories directly in Adobe Illustrator.
+**Access 4300+ professional SVG icons across 7 design platforms**
 
-## Features
+Browse and insert beautiful icons from the Saudi Arabia Digital Government Authority directly in your favorite design tools.
 
-- **39,000+ Icons**: Access the complete Saudi Arabia Digital Government Authority icon library
-- **9 Categories**: Bulk, Duotone, Solid (Rounded/Sharp/Standard), Stroke (Rounded/Sharp/Standard), Twotone
-- **Real-time Search**: Filter icons instantly by name
-- **Smart Caching**: Icons are cached locally for 7 days for offline use
-- **One-Click Insert**: Click any icon to insert it as editable vector into your document
-- **Clean UI**: Modern, professional interface that fits Illustrator's design language
+---
 
-## Installation
+## 🎨 Supported Platforms
 
-### Method 1: Easy Install (Recommended)
+| Platform | Status | Version | Download |
+|----------|--------|---------|----------|
+| **Adobe Illustrator** | ✅ Released | v1.2.0 | [Download](adobe-illustrator/SalehICONS-v1.2.0-Illustrator.zip) |
+| **Adobe Photoshop** | 🔜 Coming Soon | - | - |
+| **Adobe InDesign** | 🔜 Coming Soon | - | - |
+| **Affinity Designer** | 🔜 Coming Soon | - | - |
+| **Figma** | 🔜 Coming Soon | - | - |
+| **Microsoft PowerPoint** | 🔜 Coming Soon | - | - |
+| **Google Workspace** | 🔜 Coming Soon | - | - |
 
-1. **Download the Plugin**
-   - Get the latest `.zxp` package from releases
+---
 
-2. **Install Anastasiy's Extension Manager**
-   - Download from: https://install.anastasiy.com/
-   - Free tool for installing Adobe extensions
+## ✨ Features
 
-3. **Install the Plugin**
-   - Open Anastasiy's Extension Manager
-   - Drag and drop the `.zxp` file into the window
-   - Click "Install"
+### 🎯 Universal Features (All Platforms)
 
-4. **Restart Illustrator**
-   - Close and reopen Adobe Illustrator
+- **4300+ Icons Per Category** - Access the complete Saudi DGA icon library
+- **9 Icon Styles** - Bulk, Duotone, Solid (3 variants), Stroke (3 variants), Twotone
+- **Real-Time Search** - Filter icons instantly by name
+- **Smart Caching** - Icons cached for 7 days, works offline after first load
+- **One-Click Insert** - Click any icon to insert as editable vector
+- **Professional UI** - Clean, modern interface matching each platform
+- **Free & Open Source** - No subscriptions, no limitations
 
-5. **Open the Panel**
-   - Go to: **Window > Extensions > SalehICONS**
+### 📦 Icon Categories
 
-### Method 2: Manual Installation
+1. **Bulk Rounded** - Filled with depth/transparency effects
+2. **Duotone Rounded** - Two-tone color variations
+3. **Solid Rounded** - Completely filled, rounded corners
+4. **Solid Sharp** - Completely filled, sharp corners
+5. **Solid Standard** - Completely filled, standard style
+6. **Stroke Rounded** - Outlined, rounded style
+7. **Stroke Sharp** - Outlined, sharp corners
+8. **Stroke Standard** - Outlined, standard style
+9. **Twotone Rounded** - Two-color filled icons
 
-1. **Locate CEP Extensions Folder**
+---
 
-   **macOS:**
-   ```
-   ~/Library/Application Support/Adobe/CEP/extensions/
-   ```
+## 🚀 Quick Start
 
-   **Windows:**
-   ```
-   C:\Users\[USERNAME]\AppData\Roaming\Adobe\CEP\extensions\
-   ```
+### Adobe Illustrator (Available Now)
 
-   If the folder doesn't exist, create it.
+1. **Download** the plugin: [SalehICONS-v1.2.0-Illustrator.zip](adobe-illustrator/SalehICONS-v1.2.0-Illustrator.zip)
+2. **Extract** the ZIP file
+3. **Follow** the [Installation Guide](adobe-illustrator/SETUP.md)
+4. **Launch** Illustrator and go to **Window > Extensions > SalehICONS v1.2.0**
 
-2. **Copy Plugin Folder**
-   - Extract the plugin files
-   - Copy the entire `com.salehicons.illustrator` folder to the extensions directory
+**System Requirements:**
+- Adobe Illustrator CC 2014 or later
+- macOS 10.12+ or Windows 10+
+- Internet connection (first load only)
 
-3. **Enable Debug Mode**
+[View Complete Setup Guide →](adobe-illustrator/SETUP.md)
 
-   You need to enable CEP debug mode for manually installed extensions:
+### Other Platforms
 
-   **macOS:**
-   ```bash
-   defaults write com.adobe.CSXS.9 PlayerDebugMode 1
-   defaults write com.adobe.CSXS.10 PlayerDebugMode 1
-   defaults write com.adobe.CSXS.11 PlayerDebugMode 1
-   ```
+Coming soon! Follow this repository for updates.
 
-   **Windows:**
+---
 
-   Create/edit this registry key:
-   ```
-   REGEDIT > HKEY_CURRENT_USER/Software/Adobe/CSXS.9
-   Add key: PlayerDebugMode, Type: String, Value: 1
-   ```
+## 📖 How It Works
 
-   Repeat for CSXS.10 and CSXS.11
+1. **Browse** - Select a category and scroll through 4300+ icons
+2. **Search** - Type to filter icons by name in real-time
+3. **Click** - Click any icon to insert it into your document
+4. **Edit** - Icons are inserted as fully editable vectors
+5. **Offline** - Icons are cached for offline use after first load
 
-4. **Restart Illustrator**
+---
 
-5. **Open the Panel**
-   - Go to: **Window > Extensions > SalehICONS**
+## 🎥 Screenshots
 
-## Usage
+### Adobe Illustrator Plugin
 
-### Basic Usage
+![Plugin Interface](https://via.placeholder.com/800x600?text=SalehICONS+Illustrator+Plugin)
 
-1. **Open a Document**
-   - Create a new document or open an existing one
-   - The plugin requires an open document to insert icons
+*Clean, professional interface with search, categories, and icon grid*
 
-2. **Browse Icons**
-   - Use the category dropdown to switch between icon styles
-   - Scroll through the grid to browse available icons
+---
 
-3. **Search Icons**
-   - Type in the search box to filter icons by name
-   - Search works across both display names and filenames
+## 📋 Platform-Specific Details
 
-4. **Insert Icons**
-   - Click any icon to insert it into your document
-   - Icons are inserted as embedded vectors at the center of the active artboard
-   - The inserted icon will be automatically selected
+### Adobe Illustrator ✅ (v1.2.0)
+- **Type:** CEP Extension
+- **Installation:** Manual or via Extension Manager
+- **Features:**
+  - Inserts as native vector paths
+  - Auto-centers on artboard
+  - Groups multiple objects
+  - Works with all Illustrator CC versions
 
-### Tips
+[View Illustrator Documentation →](adobe-illustrator/)
 
-- **Categories**: Try different categories to find the style that fits your design
-  - **Bulk**: Filled with transparency/depth effects
-  - **Duotone**: Two-tone color variations
-  - **Solid**: Completely filled shapes (3 variants)
-  - **Stroke**: Outlined icons (3 variants)
-  - **Twotone**: Two-color filled icons
+### Adobe Photoshop 🔜 (Coming Soon)
+- **Type:** CEP Extension
+- **Features:** Places as Smart Objects with vector editability
 
-- **Search**: Use descriptive terms like "arrow", "home", "user", "settings"
+### Adobe InDesign 🔜 (Coming Soon)
+- **Type:** CEP Extension
+- **Features:** Places on active page, supports master pages
 
-- **Caching**: Icons are cached for 7 days. The first load of each category requires internet, but subsequent loads work offline
+### Affinity Designer 🔜 (Coming Soon)
+- **Type:** Standalone Electron App
+- **Features:** Clipboard-based insertion for seamless workflow
 
-- **Document Status**: Check the bottom of the panel to see if a document is open
+### Figma 🔜 (Coming Soon)
+- **Type:** Figma Plugin
+- **Features:** Native vector nodes, auto-layout compatible
 
-## Troubleshooting
+### Microsoft PowerPoint 🔜 (Coming Soon)
+- **Type:** Office Add-in
+- **Features:** Works in desktop and web versions
 
-### Panel Doesn't Appear
+### Google Workspace 🔜 (Coming Soon)
+- **Type:** Apps Script Add-on
+- **Features:** Supports Slides, Docs, and Sheets
 
-1. **Check Installation**
-   - Verify files are in the correct CEP extensions folder
-   - Ensure folder name is exactly: `com.salehicons.illustrator`
+---
 
-2. **Enable Debug Mode**
-   - For manual installations, PlayerDebugMode must be set to 1
-   - Run the debug mode commands for your OS (see installation)
+## 🌟 Why SalehICONS?
 
-3. **Check Illustrator Version**
-   - Plugin requires Adobe Illustrator CC 2014 or later
-   - Check your version: **Help > About Illustrator**
+### 🆓 Completely Free
+No subscriptions, no hidden costs, no usage limits
 
-4. **Restart Computer**
-   - Sometimes a full restart is needed after enabling debug mode
+### 🎨 Professional Quality
+Icons from the Saudi Arabia Digital Government Authority
 
-### Icons Won't Load
+### 🌐 Multi-Platform
+One icon library, works everywhere you design
 
-1. **Check Internet Connection**
-   - First-time loading requires internet to fetch icons from GitHub
-   - After caching, icons work offline
+### ⚡ Smart & Fast
+Intelligent caching, real-time search, instant insertion
 
-2. **Check GitHub Access**
-   - Ensure GitHub is not blocked by firewall/proxy
-   - Test: Visit https://github.com/alrkiyan/SalehICONS in your browser
+### 🔄 Always Updated
+Icons fetched from GitHub, always get the latest
 
-3. **Clear Cache**
-   - Open browser console in panel (if available)
-   - Run: `Cache.clear()`
-   - Reload the panel
+### 🇸🇦 Saudi Made
+Proudly developed in Saudi Arabia for the world
 
-4. **API Rate Limits**
-   - GitHub API allows 60 requests/hour unauthenticated
-   - Wait 1 hour if you hit the limit
-   - Cached icons work during rate limiting
+---
 
-### Icons Won't Insert
-
-1. **Open a Document**
-   - The panel shows "No document" at the bottom
-   - Create or open a document first
-
-2. **Check System Commands**
-   - macOS: Ensure `curl` is available (pre-installed)
-   - Windows: Ensure PowerShell is available (pre-installed)
-
-3. **File Permissions**
-   - Illustrator needs write access to temp folder
-   - Check folder permissions: `Folder.temp` path
-
-### Panel UI Issues
-
-1. **Panel Too Small**
-   - Drag the panel edges to resize
-   - Minimum size: 320x400px
-   - Maximum size: 1200x2000px
-
-2. **Thumbnails Not Loading**
-   - Check internet connection
-   - Check browser console for errors
-   - Try refreshing the panel
-
-## Development
-
-### Debug Mode
-
-To enable debugging:
-
-1. **Set Debug Port**
-   - Edit `.debug` file in plugin root
-   - Default port: 8088
-
-2. **Open Chrome DevTools**
-   - Open Chrome/Edge browser
-   - Navigate to: `http://localhost:8088`
-   - DevTools will connect to the panel
-
-3. **View Console**
-   - All console.log() messages appear here
-   - Inspect DOM, network requests, etc.
-
-### File Structure
+## 📦 What's Included
 
 ```
-com.salehicons.illustrator/
-├── CSXS/
-│   └── manifest.xml          # CEP configuration
-├── host/
-│   └── illustrator.jsx       # ExtendScript bridge
-├── client/
-│   ├── index.html           # UI markup
-│   ├── css/
-│   │   └── style.css        # Styles
-│   ├── js/
-│   │   ├── CSInterface.js   # Adobe CEP library
-│   │   ├── cache.js         # LocalStorage manager
-│   │   ├── api.js           # GitHub API client
-│   │   └── main.js          # App logic
-│   └── assets/
-│       ├── logo.svg         # SalehTechs logo
-│       └── icon.svg         # Panel icon
-├── .debug                   # Debug config
-└── README.md               # This file
+SalehICONS/
+├── 📁 adobe-illustrator/         ✅ Complete (v1.2.0)
+│   ├── Plugin files
+│   ├── Installation guide
+│   └── Distribution ZIP
+│
+├── 📁 adobe-photoshop/           🔜 Coming Soon
+├── 📁 adobe-indesign/            🔜 Coming Soon
+├── 📁 affinity/                  🔜 Coming Soon
+├── 📁 figma/                     🔜 Coming Soon
+├── 📁 powerpoint/                🔜 Coming Soon
+├── 📁 google-workspace/          🔜 Coming Soon
+│
+├── 📁 icons/                     39,000+ SVG icons
+│   ├── bulk-rounded/
+│   ├── duotone-rounded/
+│   ├── solid-rounded/
+│   ├── solid-sharp/
+│   ├── solid-standard/
+│   ├── stroke-rounded/
+│   ├── stroke-sharp/
+│   ├── stroke-standard/
+│   └── twotone-rounded/
+│
+└── 📁 logos/                     SalehTechs branding
 ```
 
-### Modifying the Plugin
+---
 
-- **UI Changes**: Edit `client/index.html` and `client/css/style.css`
-- **App Logic**: Edit `client/js/main.js`
-- **API Changes**: Edit `client/js/api.js`
-- **Caching**: Edit `client/js/cache.js`
-- **Illustrator Integration**: Edit `host/illustrator.jsx`
-- **Panel Config**: Edit `CSXS/manifest.xml`
+## 🛠️ Technical Details
 
-After changes, reload the panel: **Window > Extensions > SalehICONS** (toggle off/on)
+### Architecture
 
-## Credits
+Each plugin is built using platform-native technologies:
 
-**Plugin Developer:** Saleh Alrkiyan
-**Website:** https://salehtechs.com
-**Email:** info@salehteches.com
+- **Adobe CC Apps:** CEP Extensions (HTML/CSS/JS + ExtendScript)
+- **Figma:** Figma Plugin API (TypeScript)
+- **Office:** Office Add-ins (Office.js)
+- **Google:** Apps Script (JavaScript)
+- **Affinity:** Electron App (Node.js)
 
-**Icon Library:** Saudi Arabia Digital Government Authority (هيئة الحكومة الرقمية السعودية)
-**Icon Source:** https://dga.gov.sa/
-**Figma Community:** https://www.figma.com/community/file/1392269191144731080/icons-platforms-code
+### Icon Source
+
+All plugins fetch icons from this GitHub repository:
+
+**API Endpoints:**
+```
+https://api.github.com/repos/alrkiyan/SalehICONS/contents/icons
+https://raw.githubusercontent.com/alrkiyan/SalehICONS/main/icons/{category}/{icon}.svg
+```
+
+### Caching Strategy
+
+- Icons cached in browser LocalStorage
+- 7-day cache duration
+- Automatic cache refresh
+- Offline support after first load
+
+---
+
+## 📝 Attribution
+
+### Icons Provided By
+
+**Saudi Arabia Digital Government Authority**
+**هيئة الحكومة الرقمية السعودية**
 
 All icons are provided by the Saudi Arabia Digital Government Authority. All rights reserved.
 
-## License
+- **Website:** https://dga.gov.sa/
+- **Figma Community:** https://www.figma.com/community/file/1392269191144731080/icons-platforms-code
 
-This plugin is provided as-is. The icons are property of the Saudi Arabia Digital Government Authority.
+### Plugin Developed By
 
-## Support
+**Saleh Alrkiyan**
 
-For issues, questions, or feature requests:
-- Email: info@salehteches.com
-- GitHub Issues: https://github.com/alrkiyan/SalehICONS/issues
+Developed with ❤️ in Saudi Arabia
 
-## Version History
+- **Website:** https://salehtechs.com
+- **Email:** info@salehteches.com
+- **GitHub:** https://github.com/alrkiyan
 
-### v1.0.0 (Initial Release)
-- Browse 39,000+ icons across 9 categories
-- Real-time search functionality
-- Smart caching (7-day duration)
-- One-click icon insertion
-- Support for Illustrator CC 2014+
-- Cross-platform (macOS/Windows)
+*From Saudi Arabia to the world 🌍*
+
+---
+
+## 🗺️ Roadmap
+
+### Phase 1: Adobe Creative Cloud (In Progress)
+- ✅ **Q1 2024** - Adobe Illustrator v1.2.0
+- 🔜 **Q2 2024** - Adobe Photoshop
+- 🔜 **Q2 2024** - Adobe InDesign
+
+### Phase 2: Alternative Design Tools
+- 🔜 **Q3 2024** - Affinity Designer
+- 🔜 **Q3 2024** - Figma Plugin
+
+### Phase 3: Productivity Apps
+- 🔜 **Q4 2024** - Microsoft PowerPoint
+- 🔜 **Q4 2024** - Google Workspace
+
+### Phase 4: Expansion
+- Additional Office apps (Word, Excel)
+- Additional Google apps (Docs, Sheets)
+- Community feedback & feature requests
+
+---
+
+## 💬 Support
+
+### Get Help
+
+- **📧 Email:** info@salehteches.com
+- **🌐 Website:** https://salehtechs.com
+- **💬 Issues:** [GitHub Issues](https://github.com/alrkiyan/SalehICONS/issues)
+
+### Troubleshooting
+
+For platform-specific troubleshooting:
+- [Adobe Illustrator Setup Guide](adobe-illustrator/SETUP.md)
+- Other platforms: Coming soon
+
+### Feature Requests
+
+Have an idea? Open an issue on GitHub or email us!
+
+---
+
+## 📄 License
+
+**Plugin Code:** Open Source (MIT License)
+**Icons:** Property of Saudi Arabia Digital Government Authority
+
+The plugin code is free to use, modify, and distribute. The icons are provided by the Saudi Arabia Digital Government Authority and are subject to their terms.
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to:
+
+- **Saudi Arabia Digital Government Authority** for providing the comprehensive icon library
+- **Adobe** for the CEP platform
+- **Figma** for the plugin API
+- **Microsoft** and **Google** for their extensibility platforms
+- **The open-source community** for inspiration and tools
+
+---
+
+## 📊 Statistics
+
+- **Total Icons:** 39,000+ (4300+ per category)
+- **Categories:** 9 styles
+- **Platforms:** 7 (1 released, 6 planned)
+- **File Size:** ~40KB per plugin
+- **Cache Duration:** 7 days
+- **Offline Support:** ✅ Yes
+
+---
+
+## 🔗 Links
+
+- **Repository:** https://github.com/alrkiyan/SalehICONS
+- **Developer:** https://salehtechs.com
+- **DGA Website:** https://dga.gov.sa/
+- **Figma Icons:** https://www.figma.com/community/file/1392269191144731080
+
+---
+
+## ⭐ Show Your Support
+
+If you find SalehICONS useful:
+
+- ⭐ Star this repository
+- 🐛 Report bugs
+- 💡 Suggest features
+- 📢 Share with colleagues
+- 📝 Leave a review
+
+---
+
+**Made with ❤️ in Saudi Arabia 🇸🇦**
+
+*Empowering designers worldwide with professional Saudi icons*
