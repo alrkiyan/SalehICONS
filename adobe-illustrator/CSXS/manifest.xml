@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="12.0" ExtensionBundleId="com.salehicons.illustrator" ExtensionBundleVersion="1.0.0">
+  <Author>
+    <![CDATA[Saleh Alrkiyan]]>
+  </Author>
+  <Contact>info@salehteches.com</Contact>
+  <Legal>
+    <![CDATA[Icons provided by the Saudi Arabia Digital Government Authority. All rights reserved.]]>
+  </Legal>
+  <Abstract>
+    <![CDATA[SalehICONS plugin for Adobe Illustrator - Browse and insert 39,000+ SVG icons]]>
+  </Abstract>
+  <ExtensionList>
+    <Extension Id="com.salehicons.illustrator" Version="1.0.0" />
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <Host Name="ILST" Version="[18.0,99.9]" />
+    </HostList>
+    <LocaleList>
+      <Locale Code="All" />
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="12.0" />
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="com.salehicons.illustrator">
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./client/index.html</MainPath>
+          <ScriptPath>./host/illustrator.jsx</ScriptPath>
+          <CEFCommandLine>
+            <Parameter>--enable-nodejs</Parameter>
+            <Parameter>--mixed-context</Parameter>
+          </CEFCommandLine>
+        </Resources>
+        <Lifecycle>
+          <AutoVisible>true</AutoVisible>
+        </Lifecycle>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>SalehICONS</Menu>
+          <Geometry>
+            <Size>
+              <Height>700</Height>
+              <Width>420</Width>
+            </Size>
+            <MinSize>
+              <Height>400</Height>
+              <Width>320</Width>
+            </MinSize>
+            <MaxSize>
+              <Height>2000</Height>
+              <Width>1200</Width>
+            </MaxSize>
+          </Geometry>
+          <Icons>
+            <Icon Type="Normal">./client/assets/icon.png</Icon>
+            <Icon Type="RollOver">./client/assets/icon.png</Icon>
+            <Icon Type="Disabled">./client/assets/icon.png</Icon>
+          </Icons>
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>

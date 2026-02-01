@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalehICONS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Header with Logo -->
+        <header class="header">
+            <a href="#" class="logo-link" id="logo-link" title="Visit SalehTechs">
+                <img src="assets/logo.svg" alt="SalehICONS" class="logo">
+            </a>
+        </header>
+
+        <!-- Controls Section -->
+        <div class="controls">
+            <!-- Category Selector -->
+            <div class="control-group">
+                <label for="category-select">Category:</label>
+                <select id="category-select" class="category-select">
+                    <option value="bulk-rounded">Bulk Rounded</option>
+                    <option value="duotone-rounded">Duotone Rounded</option>
+                    <option value="solid-rounded">Solid Rounded</option>
+                    <option value="solid-sharp">Solid Sharp</option>
+                    <option value="solid-standard">Solid Standard</option>
+                    <option value="stroke-rounded">Stroke Rounded</option>
+                    <option value="stroke-sharp">Stroke Sharp</option>
+                    <option value="stroke-standard">Stroke Standard</option>
+                    <option value="twotone-rounded">Twotone Rounded</option>
+                </select>
+            </div>
+
+            <!-- Search Box -->
+            <div class="control-group search-group">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <input
+                        type="text"
+                        id="search-input"
+                        placeholder="Search icons..."
+                        autocomplete="off"
+                        spellcheck="false"
+                    >
+                    <button id="clear-btn" class="clear-btn" title="Clear search">✕</button>
+                </div>
+            </div>
+
+            <!-- Info Bar -->
+            <div class="info-bar">
+                <span id="icon-count" class="icon-count">Loading...</span>
+                <span id="doc-status" class="doc-status"></span>
+            </div>
+        </div>
+
+        <!-- Icon Grid Container -->
+        <div id="icon-grid-container" class="icon-grid-container">
+            <div id="icon-grid" class="icon-grid">
+                <!-- Icons will be rendered here dynamically -->
+            </div>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Loading icons...</p>
+        </div>
+
+        <!-- Error State -->
+        <div id="error" class="error hidden">
+            <div class="error-icon">⚠</div>
+            <p id="error-message">Failed to load icons</p>
+            <button id="retry-btn" class="retry-btn">Retry</button>
+        </div>
+
+        <!-- Empty State -->
+        <div id="empty" class="empty hidden">
+            <div class="empty-icon">🔍</div>
+            <p>No icons found</p>
+            <p class="empty-hint">Try a different search term</p>
+        </div>
+
+        <!-- Attribution Footer -->
+        <footer class="attribution">
+            <p>Icons provided by the Saudi Arabia Digital Government Authority</p>
+            <p class="arabic">(هيئة الحكومة الرقمية السعودية). All rights reserved.</p>
+            <a href="https://dga.gov.sa/" target="_blank">https://dga.gov.sa/</a>
+            <p class="developer">Developed with ❤️ by <a href="https://salehtechs.com" target="_blank">Saleh Alrkiyan</a></p>
+            <p class="tagline">From Saudi Arabia to the world 🌍</p>
+        </footer>
+    </div>
+
+    <!-- Adobe CEP Interface -->
+    <script src="js/CSInterface.js"></script>
+    <!-- App Modules -->
+    <script src="js/cache.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

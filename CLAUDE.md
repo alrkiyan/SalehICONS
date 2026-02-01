@@ -11,7 +11,7 @@ Each folder above will eventually contain its own independent plugin. Here are t
 | Website | salehtechs.com |
 | Email | info@salehteches.com |
 | Logo & Icon | Located in the `logos/` folder at repo root |
-| Attribution (must be visible in every plugin's UI) | "Icons provided by the Saudi Arabia Digital Government Authority (هيئة الحكومة الرقمية السعودية). All rights reserved." |
+| Attribution (must be visible in every plugin's UI) | "Icons provided by the Saudi Arabia Digital Government Authority (هيئة الحكومة الرقمية السعودية). All rights reserved. https://www.figma.com/community/file/1392269191144731080/icons-platforms-code, https://dga.gov.sa/" |
 
 ## Icon Data Source
 
